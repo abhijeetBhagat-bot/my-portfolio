@@ -1,0 +1,10 @@
+body{margin:0;font-family:Inter,system-ui,Arial;background:#071024;color:#e6eef8;min-height:100vh}
+.app{display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
+.card{width:100%;max-width:1100px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:18px;border-radius:10px;border:1px solid rgba(255,255,255,0.04)}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.row{display:flex;gap:10px;align-items:center}
+.input{padding:8px 10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+.btn{padding:8px 10px;border-radius:8px;border:none;background:#06b6d4;color:#021;font-weight:700;cursor:pointer}
+.small{color:#94a3b8;font-size:13px}
+.outlook{display:flex;gap:8px;margin-top:12px}
+.day{flex:1;background:rgba(255,255,255,0.02);padding:8px;border-radius:8px;text-align:center}

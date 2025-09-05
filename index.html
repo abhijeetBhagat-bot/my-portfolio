@@ -1,73 +1,12 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Abhijeet Bhagat — Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Abhijeet Bhagat</h1>
-      <p class="tagline">Frontend Developer • React • 3D Web Experiences</p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container content">
-    <section id="about" class="card">
-      <h2>About Me</h2>
-      <p>Hi I'm <strong>Abhijeet Bhagat</strong> I build interactive web apps with React and 3D visuals using threejs I focus on clean design performance and user experience</p>
-      <p class="muted">Skills: React JavaScript HTML CSS ThreeJS @react-three/fiber Design</p>
-    </section>
-
-    <section id="projects" class="card">
-      <h2>Projects</h2>
-
-      <div class="project">
-        <div class="proj-left">
-          <div class="thumb">Weather 3D</div>
-        </div>
-        <div class="proj-right">
-          <h3>3D Weather Explorer</h3>
-          <p>A reactive 3D weather visualization that shows rain snow and sun effects and live forecasts from Open-Meteo. Built with React and @react-three/fiber</p>
-          <p class="muted">Run locally inside /weather-3d folder</p>
-          <div class="proj-links">
-            <a class="btn" href="./weather-3d/README.html" target="_blank">Open Project Instructions</a>
-            <a class="btn ghost" href="#" onclick="alert('Code included in zip: open /weather-3d in VS Code')">View Code (local)</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="project">
-        <h3>Portfolio Website</h3>
-        <p>Personal portfolio built with modern responsive layout</p>
-      </div>
-
-    </section>
-
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:abhijeetbhagat@example.com">abhijeet.akj@gmail.com</a></p>
-      <p>Phone: <a href="tel:+919065284289">+91 9065284289</a></p>
-      <p class="muted">You can edit contact details in the files</p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small>&copy; 2025 Abhijeet Bhagat</small>
-    </div>
-  </footer>
-  <script>
-    // simple nav highlight
-    const navLinks = document.querySelectorAll('nav a');
-    navLinks.forEach(a=>a.addEventListener('click', (e)=>{e.preventDefault();document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'})}));
-  </script>
-</body>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Weather 3D — Abhijeet Bhagat</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
